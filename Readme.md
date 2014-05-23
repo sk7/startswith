@@ -11,13 +11,20 @@
 
 ## API
 
+`"blah123".startsWith("blah")` --> `true`
+`"blah123".startsWith("Blah")` --> `false`
+`"blah123".startsWith("123")` --> `false`
 
+
+`"blah123".startsWithIgnoreCase("blah")` --> `true`
+`"blah123".startsWithIgnoreCase("Blah")` --> `true`
+`"blah123".startsWithIgnoreCase("123")` --> `false`
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 Ubergrape GmbH
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
