@@ -11,13 +11,20 @@
 
 ## API
 
+### str.startsWith(str)
+
 `"blah123".startsWith("blah")` --> `true`
+
 `"blah123".startsWith("Blah")` --> `false`
+
 `"blah123".startsWith("123")` --> `false`
 
+### str.startsWithIgnoreCase(str)
 
 `"blah123".startsWithIgnoreCase("blah")` --> `true`
+
 `"blah123".startsWithIgnoreCase("Blah")` --> `true`
+
 `"blah123".startsWithIgnoreCase("123")` --> `false`
 
 ## License
