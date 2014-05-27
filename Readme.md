@@ -11,27 +11,27 @@
 
 ## API
 
-### str.startsWith(str)
+### str.endsWith(str)
 
-`"blah123".startsWith("blah")` --> `true`
+`"123blah".endsWith("blah")` --> `true`
 
-`"blah123".startsWith("Blah")` --> `false`
+`"123blah".endsWith("Blah")` --> `false`
 
-`"blah123".startsWith("123")` --> `false`
+`"123blah".endsWith("123")` --> `false`
 
-### str.startsWithIgnoreCase(str)
+### str.endsWithIgnoreCase(str)
 
-`"blah123".startsWithIgnoreCase("blah")` --> `true`
+`"123blah".endsWithIgnoreCase("blah")` --> `true`
 
-`"blah123".startsWithIgnoreCase("Blah")` --> `true`
+`"123blah".endsWithIgnoreCase("Blah")` --> `true`
 
-`"blah123".startsWithIgnoreCase("123")` --> `false`
+`"123blah".endsWithIgnoreCase("123")` --> `false`
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 Ubergrape GmbH
+  Copyright (c) 2014 UberGrape GmbH
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
